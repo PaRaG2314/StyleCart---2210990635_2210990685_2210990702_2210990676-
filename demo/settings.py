@@ -95,7 +95,8 @@ AUTHENTICATION_BACKENDS = (
 )
 
 LOGIN_REDIRECT_URL = '/'
-LOGOUT_REDIRECT_URL = '/'
+LOGOUT_REDIRECT_URL = '/'  # guest redirect
+
 
 # Allauth basic settings
 ACCOUNT_LOGIN_METHODS = {'username': True}
